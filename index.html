@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Card</title>
+
+  <style>
+
+.outside{
+  
+  width: 300px;
+  height: 470px;
+  border: 10px solid yellow;
+  border-radius: 15px;
+  
+}
+
+.background{
+  
+  width: 300px;
+  height: 470px;
+  background-color: #C154FA;
+  border-radius: 8px;
+
+  
+}
+
+.mewtwo {
+  
+  z-index: 10;
+  top: 60px;
+  left: 35px;
+  position: absolute;
+  
+}
+
+.basic{
+  
+  z-index: 10;
+  top: 20px;
+  left: -12px;
+  scale: 0.5;
+  position: absolute;
+  
+}
+
+h1{
+  
+  background-color: #C154FA;
+  position: absolute;
+  top: 12px;
+  background: transparent;
+  font-family: 'Arial Black', Arial, sans-serif;
+  font-size: 18px;
+  left: 80px;
+ 
+  
+}
+
+.hp{
+  
+  font-family: 'Arial Black', Arial, sans-serif;
+  font-size: 9px;
+  left: 220px;
+  top: 41px;
+  position: absolute;
+  
+  
+}
+
+.hpValue {
+  
+  font-family: 'Arial Black', Arial, sans-serif;
+  font-size: 18px;
+  left: 235px;
+  top: 30px;
+  position: absolute;
+  
+  
+}
+
+.psychicEye{
+  
+  scale: 0.7;
+  left: 270px;
+  position: absolute;
+  top: 19px;
+  
+}
+
+.ability{
+  
+  position: absolute;
+  top: 242px;
+  scale: 0.7;
+  
+}
+
+.abilityName{
+  
+  font-family: 'Arial Black', Arial, sans-serif;
+  color: #8B0000;
+  position: absolute;
+  top: 244px;
+  left: 135px;
+  
+}
+
+.abilityDescription{
+  
+  font-size: 11px;
+  position: relative;
+  top: 250px;
+  left: 5px;
+
+}
+
+.tripleEye{
+  
+  scale: 0.65;
+  position: absolute;
+  top: 340px;
+  left: 8px;
+  
+}
+
+.moveName{
+  
+  font-family: 'Arial Black', Arial, sans-serif;
+  position: absolute;
+  top: 343px;
+  left: 115px;
+  font-size: 14px;
+  
+ 
+}
+
+.moveValue{
+  
+    font-family: 'Arial Black', Arial, sans-serif;
+  position: absolute;
+  top: 343px;
+  left: 280px;
+  font-size: 14px;
+  
+}
+
+.resistances{
+  
+  scale: 0.3;
+  position: absolute;
+  left: -195px;
+  top: 413px;
+  
+}
+
+.retreat{
+  
+  scale: 0.5;
+  position: absolute;
+  top: 425px;
+  left: 155px;
+  
+}
+
+.identifier{
+  
+  scale: 0.5;
+  position: absolute;
+  top: 440px;
+  left: -5px;
+  
+}
+
+.pokedex{
+  
+  top: 440px;
+  position: absolute;
+  width: 150px;
+  font-size: 9px;
+  left: 175px;
+  
+}
+
+
+
+  </style>
+
+</head>
+<body>
+  <div class = "outside">
+    <div class = "background">
+     <div class = "mewtwo">
+      <img src = "https://github.com/lkurker/Pokemon-Card/blob/main/Screenshot%202025-09-23%20125312.png?raw=true">
+    </img>
+    </div>
+    
+  <div class = "basic">
+    <img src = "https://github.com/lkurker/Pokemon-Card/blob/main/basic.png?raw=true">
+         </img>
+  </div>
+    
+    
+  <div class = "psychicEye">
+    <img src = "https://github.com/lkurker/Pokemon-Card/blob/main/Screenshot%202025-09-25%20123618.png?raw=true"></img>
+    </div>
+  
+  
+  <div class = "ability">
+    <img src = "https://github.com/lkurker/Pokemon-Card/blob/main/Screenshot%202025-09-25%20124139.png?raw=true"</img>
+  </div>
+  
+  <div class = "tripleEye">
+    <img src = "https://github.com/lkurker/Pokemon-Card/blob/main/Screenshot%202025-09-25%20125925.png?raw=true"</img>
+  </div>
+  
+  <div class = "resistances">
+    <img src = "https://raw.githubusercontent.com/lkurker/Pokemon-Card/c91418921d1fdd1af3f9dbb8cbb2ea25ac0d6a58/Screenshot%202025-09-25%20130912.png"></img>
+  </div>
+  
+  <div class = "retreat">
+    <img src = "https://github.com/lkurker/Pokemon-Card/blob/main/Screenshot%202025-09-25%20163712.png?raw=true"></img>
+  </div>
+
+<div class = "identifier">
+  <img src = "https://raw.githubusercontent.com/lkurker/Pokemon-Card/5d863f66a44135ba642bcda7ad5ef0b3492dd535/Screenshot%202025-09-25%20164351.png"></img>
+</div>
+  
+    <h1>Mewtwo</h1>
+    <span class = "hp">HP</span>
+    <span class = "hpValue">120</span>
+    <span class = "abilityName">Pressure</span>
+    <span class = "abilityDescription">As long as this Pokemon is your Active Pokemon, your opponent's Active Pokemon's attacks do 20 less damage ( before applying Weakness and Resistance).</span>
+
+  <span class = "moveName">Super Psy Bolt</span>
+  <span class = "moveValue">100</span>
+
+<div class = "pokedex">
+  <p>A pokemon created by recombining Mew's genes. It's said to have the most savage heart among Pokemon.</p> 
+</div>
+      
+    </div>
+  </div>
+  
+</body>
+</html>
